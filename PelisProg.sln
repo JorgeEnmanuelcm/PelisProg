@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PelisProg", "PelisProg\PelisProg.csproj", "{5FE5287A-B8B5-4473-92EB-793A7EB62644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C0ABF3AE-498D-45CC-9C8D-E6DFB1E00921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{57401295-B579-467C-B584-D89B080A5737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE5287A-B8B5-4473-92EB-793A7EB62644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE5287A-B8B5-4473-92EB-793A7EB62644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE5287A-B8B5-4473-92EB-793A7EB62644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE5287A-B8B5-4473-92EB-793A7EB62644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0ABF3AE-498D-45CC-9C8D-E6DFB1E00921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ABF3AE-498D-45CC-9C8D-E6DFB1E00921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ABF3AE-498D-45CC-9C8D-E6DFB1E00921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ABF3AE-498D-45CC-9C8D-E6DFB1E00921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57401295-B579-467C-B584-D89B080A5737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57401295-B579-467C-B584-D89B080A5737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57401295-B579-467C-B584-D89B080A5737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57401295-B579-467C-B584-D89B080A5737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
