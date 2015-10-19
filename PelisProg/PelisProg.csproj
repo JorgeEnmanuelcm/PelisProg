@@ -72,6 +72,12 @@
       <DependentUpon>RegistrarForm.cs</DependentUpon>
       <Link>RegistrarForm.Designer.cs</Link>
     </Compile>
+    <Compile Include="RegistroDeGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroDeGenero.Designer.cs">
+      <DependentUpon>RegistroDeGenero.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="..\..\..\..\..\Desktop\New folder\ConsultarForm.resx">
       <DependentUpon>ConsultarForm.cs</DependentUpon>
       <Link>ConsultarForm.resx</Link>
@@ -88,10 +94,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="..\..\..\..\..\Desktop\RegistrarForm.resx">
       <DependentUpon>RegistrarForm.cs</DependentUpon>
       <Link>RegistrarForm.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroDeGenero.resx">
+      <DependentUpon>RegistroDeGenero.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +121,9 @@
       <Project>{57401295-b579-467c-b584-d89b080a5737}</Project>
       <Name>DLL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1444035846_floppy_disk_save.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
