@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +69,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.Designer.cs</Link>
     </Compile>
+    <Compile Include="CrystalReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReportForm.Designer.cs">
+      <DependentUpon>CrystalReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\..\..\..\..\Desktop\RegistrarForm.cs">
@@ -71,6 +84,12 @@
     <Compile Include="..\..\..\..\..\Desktop\RegistrarForm.Designer.cs">
       <DependentUpon>RegistrarForm.cs</DependentUpon>
       <Link>RegistrarForm.Designer.cs</Link>
+    </Compile>
+    <Compile Include="RegistroDeActor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroDeActor.Designer.cs">
+      <DependentUpon>RegistroDeActor.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroDeGenero.cs">
       <SubType>Form</SubType>
@@ -86,6 +105,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.resx</Link>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportForm.resx">
+      <DependentUpon>CrystalReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -99,6 +121,9 @@
     <EmbeddedResource Include="..\..\..\..\..\Desktop\RegistrarForm.resx">
       <DependentUpon>RegistrarForm.cs</DependentUpon>
       <Link>RegistrarForm.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroDeActor.resx">
+      <DependentUpon>RegistroDeActor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroDeGenero.resx">
       <DependentUpon>RegistroDeGenero.cs</DependentUpon>

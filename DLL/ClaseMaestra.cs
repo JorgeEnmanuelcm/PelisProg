@@ -9,9 +9,10 @@ namespace DLL
 {
     public abstract class ClaseMaestra
     {
-        public abstract bool Actualizar();
+        public abstract bool Editar();
         public abstract bool Insertar();
         public abstract bool Eliminar(int id);
+        public abstract bool Buscar(int idbuscar);
         public abstract DataTable Listar(string campos, string filtros);
     }
 }

@@ -38,7 +38,7 @@
             // 
             // CancelarGenerobutton
             // 
-            this.CancelarGenerobutton.Location = new System.Drawing.Point(180, 271);
+            this.CancelarGenerobutton.Location = new System.Drawing.Point(216, 287);
             this.CancelarGenerobutton.Name = "CancelarGenerobutton";
             this.CancelarGenerobutton.Size = new System.Drawing.Size(75, 23);
             this.CancelarGenerobutton.TabIndex = 8;
@@ -48,7 +48,7 @@
             // 
             // GuardarGenerobutton
             // 
-            this.GuardarGenerobutton.Location = new System.Drawing.Point(61, 271);
+            this.GuardarGenerobutton.Location = new System.Drawing.Point(61, 287);
             this.GuardarGenerobutton.Name = "GuardarGenerobutton";
             this.GuardarGenerobutton.Size = new System.Drawing.Size(75, 23);
             this.GuardarGenerobutton.TabIndex = 7;
@@ -59,30 +59,32 @@
             // DesGenerolabel
             // 
             this.DesGenerolabel.AutoSize = true;
-            this.DesGenerolabel.Location = new System.Drawing.Point(58, 129);
+            this.DesGenerolabel.Location = new System.Drawing.Point(49, 129);
             this.DesGenerolabel.Name = "DesGenerolabel";
             this.DesGenerolabel.Size = new System.Drawing.Size(116, 13);
             this.DesGenerolabel.TabIndex = 6;
             this.DesGenerolabel.Text = "Descripcion del genero";
+            this.DesGenerolabel.Click += new System.EventHandler(this.DesGenerolabel_Click);
             // 
             // DescripGenerotextBox
             // 
-            this.DescripGenerotextBox.Location = new System.Drawing.Point(191, 129);
+            this.DescripGenerotextBox.Location = new System.Drawing.Point(171, 129);
             this.DescripGenerotextBox.Name = "DescripGenerotextBox";
-            this.DescripGenerotextBox.Size = new System.Drawing.Size(100, 20);
+            this.DescripGenerotextBox.Size = new System.Drawing.Size(120, 20);
             this.DescripGenerotextBox.TabIndex = 9;
             // 
             // IdgenerotextBox
             // 
-            this.IdgenerotextBox.Location = new System.Drawing.Point(191, 91);
+            this.IdgenerotextBox.Location = new System.Drawing.Point(171, 91);
             this.IdgenerotextBox.Name = "IdgenerotextBox";
-            this.IdgenerotextBox.Size = new System.Drawing.Size(100, 20);
+            this.IdgenerotextBox.Size = new System.Drawing.Size(120, 20);
             this.IdgenerotextBox.TabIndex = 10;
+            this.IdgenerotextBox.TextChanged += new System.EventHandler(this.IdgenerotextBox_TextChanged);
             // 
             // Idgenerolabel
             // 
             this.Idgenerolabel.AutoSize = true;
-            this.Idgenerolabel.Location = new System.Drawing.Point(69, 94);
+            this.Idgenerolabel.Location = new System.Drawing.Point(49, 94);
             this.Idgenerolabel.Name = "Idgenerolabel";
             this.Idgenerolabel.Size = new System.Drawing.Size(52, 13);
             this.Idgenerolabel.TabIndex = 11;
@@ -101,6 +103,7 @@
             this.Controls.Add(this.DesGenerolabel);
             this.Name = "RegistroDeGenero";
             this.Text = "RegistroDeGenero";
+            this.Load += new System.EventHandler(this.RegistroDeGenero_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

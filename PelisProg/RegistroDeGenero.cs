@@ -30,5 +30,20 @@ namespace PelisProg
         {
            DescripGenerotextBox.Clear();
         }
+
+        private void DesGenerolabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegistroDeGenero_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IdgenerotextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
